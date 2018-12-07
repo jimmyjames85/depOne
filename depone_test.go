@@ -5,7 +5,7 @@ import (
 )
 
 func TestOne(t *testing.T) {
-	if "One" != One() {
+	if "One" != OneString() {
 		t.Fatal("should be One")
 	}
 
