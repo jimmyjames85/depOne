@@ -10,3 +10,10 @@ func TestOne(t *testing.T) {
 	}
 
 }
+
+func TestOneInt(t *testing.T) {
+	if 1 != OneInt() {
+		t.Fatal("should be 1")
+	}
+
+}
