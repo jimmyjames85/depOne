@@ -1,5 +1,8 @@
 package depone
 
-func OneString() string { return "One" }
+// One used to be OneString
+//
+// func OneString() string { return "One" }
+func One() string { return "One" }
 
 func OneInt() int { return 1 }
